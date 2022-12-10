@@ -28,7 +28,7 @@
 This is a project developed based on Rocketseat Ignite ReactNative Challenge 03 - 2022.
 
 <h1 align="center">
-<img src="screenshots/sign-out-sign-in-contact-vendor.gif" width="50%" >
+<img src="screenshots/app-demo.gif" width="50%" >
 </h1>
 <h1 align="center">
 <img src="screenshots/sign-up.gif" width="32%" >
@@ -42,6 +42,7 @@ This is a project developed based on Rocketseat Ignite ReactNative Challenge 03 
 <img src="screenshots/create-product-part-3.gif" width="32%" >
 <img src="screenshots/edit-product.gif" width="32%" >
 <img src="screenshots/edit-product-2.gif" width="32%" >
+<img src="screenshots/sign-out-sign-in-contact-vendor.gif" width="32%" >
 </h1>
 
 ## 🔖 Layout

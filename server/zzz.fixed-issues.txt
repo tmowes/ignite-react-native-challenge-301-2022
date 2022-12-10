@@ -1,0 +1,3 @@
+[] consertar exemplo de objeto na criação de produto da documentação ("payment_methods" "example" must be outside "items")
+[] consertar exemplo de objeto de remoção de imagens de produto da documentação ("productImagesIds" instead of "images")
+[] erro ao enviar um unico metodo de pagamento "failed JSON.parse"

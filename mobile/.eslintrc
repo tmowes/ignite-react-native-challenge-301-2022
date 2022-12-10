@@ -1,0 +1,3 @@
+{
+  "extends": "@piktew/eslint-config-react"
+}

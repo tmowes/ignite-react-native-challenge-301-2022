@@ -1,6 +1,5 @@
 /* eslint-disable sonarjs/no-use-of-empty-return-value */
 /* eslint-disable sonarjs/no-identical-expressions */
-import { useState } from 'react'
 import { Dimensions, TouchableOpacity } from 'react-native'
 
 import * as ImagePicker from 'expo-image-picker'
@@ -46,6 +45,7 @@ export function ImagesControlled(props: ImagesControlledProps) {
 
       if (photoSelected.assets[0].uri) {
         const photoInfo = await FileSystem.getInfoAsync(photoSelected.assets[0].uri)
+        if (!photoInfo.exists) return
         if (photoInfo.size && validPhotoSize(photoInfo.size, 2)) {
           toast.show({
             title: 'Essa imagem é muito grande. Escolha uma de até 2MB.',

@@ -75,6 +75,7 @@ export function SignUp() {
 
       if (photoSelected.assets[0].uri) {
         const photoInfo = await FileSystem.getInfoAsync(photoSelected.assets[0].uri)
+        if (!photoInfo.exists) return
         if (photoInfo.size && validPhotoSize(photoInfo.size, 2)) {
           toast.show({
             title: 'Essa imagem é muito grande. Escolha uma de até 2MB.',
